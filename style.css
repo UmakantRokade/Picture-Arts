@@ -1,0 +1,136 @@
+*{
+  padding: 0%;
+  margin:0%;
+  font-family: "Poppins", sans-serif;
+
+}
+.main_box{
+  height: 100vh;
+  background: url("https://img.pikbest.com/wp/202344/capture-vintage-film-texture-background-capturing-nostalgia-with-a-classic-camera-frame-for-artistic-design_9898562.jpg!w700wp");
+  background-size: cover;
+}
+.btn_one{
+  color: rgba(6,19,49,255);
+  position: absolute;
+  font-size: larger;
+  
+  left: 16px;
+  line-height: 60px;
+  transition: 0.3s;
+  
+}
+.sidebar_menu{
+  position: fixed;
+  left: -350px;
+  width: 15%;
+  height: 100%;
+  
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 7px rgba(15, 125, 168, 0.49);
+  transition: all 0.2s linear;
+}
+
+.sidebar_menu .logo{
+  position: absolute;
+  width: 100%;
+  line-height: 59px;
+  left: 15%;
+  font-size: large;
+  box-shadow: 0 0 7px rgba(15, 125, 168, 1);
+
+}
+.sidebar_menu .logo a{
+  position: absolute;
+  left: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.sidebar_menu .menu{
+  position: absolute;
+  width: 100%;
+  top: 80px;
+}
+
+.sidebar_menu .btn_two{
+  color: lightblue;
+  position: absolute;
+  left: 16px;
+  font-size: small;
+  line-height: 60px;
+  left: 160px;
+  bottom: 92.7%;
+  transition: 0.3s;
+}
+
+.sidebar_menu .menu li{
+  margin: 10px;
+  padding: 5px;
+}
+
+.sidebar_menu .menu i,a{
+  color: rgba(49,6,0,255);
+  text-decoration: none;
+  /* font-size: 20px; */
+}
+
+.sidebar_menu .menu i{
+  margin: 4x;
+  padding: 4px;
+  
+}
+
+.sidebar_menu .social_media{
+  position: absolute;
+  color: rgba(49,6,0,255);
+  bottom: 70px;
+  left: 25%;  
+  opacity: 1;
+  transition: 2s;
+}
+
+.sidebar_menu .menu li:hover{
+  box-shadow: 0 0 7px rgba(15, 125, 168, 0.49);
+}
+
+/* .sidebar_menu .social_media i:hover{
+  font-size: larger;
+  opacity: 1;
+  
+} */
+.sidebar_menu .social_media .fa-facebook:hover{
+  font-size: x-large;
+  opacity: 1;
+}
+.sidebar_menu .social_media .fa-youtube:hover{
+  font-size: x-large;
+  opacity: 1;
+}
+.sidebar_menu .social_media .fa-instagram:hover{
+  font-size: x-large;
+  opacity: 1;
+}
+.sidebar_menu .social_media .fa-twitter:hover{
+  font-size: x-large;
+  opacity: 1;
+}
+.btn_one:hover{
+  
+  font-size: x-large;
+}
+
+#check:checked ~ .sidebar_menu{
+  left: 0;
+}
+
+#check{
+  display: none;
+}
+
+.sidebar_menu .btn_two:hover{
+  font-size: large;
+}
+
+#check:checked ~ .btn_one i{
+  opacity: 0;
+}
